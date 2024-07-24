@@ -1,39 +1,40 @@
 # HealWell Project Structure
 
-## Project Hierarchy
+### Project Hierarchy
 
+```plaintext
 HealWell/
 ├── pom.xml
 ├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── dev/
-│ │ │ └── ruchir/
-│ │ │ └── healwell/
-│ │ │ ├── controller/
-│ │ │ │ ├── PatientController.java
-│ │ │ │ └── AppointmentController.java
-│ │ │ ├── entity/
-│ │ │ │ ├── Patient.java
-│ │ │ │ └── Appointment.java
-│ │ │ ├── repository/
-│ │ │ │ ├── PatientRepository.java
-│ │ │ │ └── AppointmentRepository.java
-│ │ │ ├── service/
-│ │ │ │ ├── PatientService.java
-│ │ │ │ ├── PatientServiceImpl.java
-│ │ │ │ ├── AppointmentService.java
-│ │ │ │ └── AppointmentServiceImpl.java
-│ │ │ └── HealWellApplication.java
-│ │ └── resources/
-│ │ └── application.properties
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── dev/
+│   │   │       └── ruchir/
+│   │   │           └── healwell/
+│   │   │               ├── controller/
+│   │   │               │   ├── PatientController.java
+│   │   │               │   └── AppointmentController.java
+│   │   │               ├── entity/
+│   │   │               │   ├── Patient.java
+│   │   │               │   └── Appointment.java
+│   │   │               ├── repository/
+│   │   │               │   ├── PatientRepository.java
+│   │   │               │   └── AppointmentRepository.java
+│   │   │               ├── service/
+│   │   │               │   ├── PatientService.java
+│   │   │               │   ├── PatientServiceImpl.java
+│   │   │               │   ├── AppointmentService.java
+│   │   │               │   └── AppointmentServiceImpl.java
+│   │   │               └── HealWellApplication.java
+│   │   └── resources/
+│   │       └── application.properties
 └── src/
-└── test/
-└── java/
-└── dev/
-└── ruchir/
-└── healwell/
-└── HealWellApplicationTests.java
+    └── test/
+        └── java/
+            └── dev/
+                └── ruchir/
+                    └── healwell/
+                        └── HealWellApplicationTests.java
 
 
 ## Features
