@@ -3,8 +3,7 @@
 ### Project Hierarchy
 
 ```plaintext
-HealWell/
-├── pom.xml
+healwell/
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -13,28 +12,30 @@ HealWell/
 │   │   │           └── healwell/
 │   │   │               ├── controller/
 │   │   │               │   ├── PatientController.java
-│   │   │               │   └── AppointmentController.java
+│   │   │               │   ├── AppointmentController.java
 │   │   │               ├── entity/
 │   │   │               │   ├── Patient.java
-│   │   │               │   └── Appointment.java
+│   │   │               │   ├── Appointment.java
 │   │   │               ├── repository/
 │   │   │               │   ├── PatientRepository.java
-│   │   │               │   └── AppointmentRepository.java
+│   │   │               │   ├── AppointmentRepository.java
 │   │   │               ├── service/
 │   │   │               │   ├── PatientService.java
-│   │   │               │   ├── PatientServiceImpl.java
 │   │   │               │   ├── AppointmentService.java
-│   │   │               │   └── AppointmentServiceImpl.java
-│   │   │               └── HealWellApplication.java
-│   │   └── resources/
-│   │       └── application.properties
-└── src/
-    └── test/
-        └── java/
-            └── dev/
-                └── ruchir/
-                    └── healwell/
-                        └── HealWellApplicationTests.java
+│   │   │               ├── dto/
+│   │   │               │   ├── PatientDTO.java
+│   │   │               │   ├── AppointmentDTO.java
+│   │   │               ├── exception/
+│   │   │               │   ├── GlobalExceptionHandler.java
+│   │   │               │   ├── ResourceNotFoundException.java
+│   │   │               ├── config/
+│   │   │               │   ├── SwaggerConfig.java
+│   │   │               ├── HealthcareApplication.java
+│   ├── resources/
+│   │   ├── application.properties
+├── README.md
+├── pom.xml
+
 ```
 
 ## Features
