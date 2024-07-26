@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class PatientService {
 
-    @Autowired
+
     private PatientRepository patientRepository;
 
     public List<Patient> getAllPatients() {

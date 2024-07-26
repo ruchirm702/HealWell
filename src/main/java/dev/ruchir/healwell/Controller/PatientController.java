@@ -11,7 +11,7 @@ import java.util.List;
 @RequestMapping("/patients") // Base URL for patient-related endpoints
 public class PatientController {
 
-    @Autowired
+
     private PatientService patientService;
 
     @GetMapping

@@ -19,6 +19,6 @@ public class Appointment {
 
     @ManyToOne // many appointment for one patient
     @JoinColumn(name = "patient_id")
-    private Patient patient;  //The patient linked to this appointment
+    private Patient patient;  // The patient linked to this appointment
     private LocalDateTime appointmentDate;
 }

@@ -14,7 +14,7 @@ import lombok.Setter;
 public class Patient {
 
     @Id // specifies the primary key
-    @GeneratedValue(strategy = GenerationType.IDENTITY)// Auto-increment primary key
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-increment primary key
     private Long id;
     private String name;
     private String email;
