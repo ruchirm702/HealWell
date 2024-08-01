@@ -1,5 +1,10 @@
 # HealWell Project Structure
 
+[![Java](https://img.shields.io/badge/Java-17-green)](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-blue)](https://spring.io/projects/spring-boot)
+[![Maven](https://img.shields.io/badge/Maven-3.8.4-red)](https://maven.apache.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
 ### Project Hierarchy
 
 ```plaintext
